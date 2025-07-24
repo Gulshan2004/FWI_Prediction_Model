@@ -22,7 +22,7 @@ Built with **Flask** for the backend and **HTML** for the frontend, this project
 |-------------|-------------------------------------|
 | ML Model    | Scikit-learn (Ridge, Lasso, ElasticNet) |
 | Backend     | Python, Flask                       |
-| Frontend    | HTML, CSS                           |
+| Frontend    | HTML                              |
 | Data Used   | Algerian Forest Fire Dataset        |
 | Deployment  | Localhost (can be extended to Heroku, Render, etc.) |
 
