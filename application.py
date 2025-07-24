@@ -23,7 +23,7 @@ def index():
 #using POST i post information i.e im sending some query and based on that i get result
 def predict_datapoint():
     if request.method=="POST":
-        Tempreature=float(request.form.get('Tempreature'))
+        Temperature=float(request.form.get('Temperature'))
         RH=float(request.form.get('RH'))
         Ws=float(request.form.get('Ws'))
         Rain=float(request.form.get('Rain'))
@@ -43,4 +43,4 @@ def predict_datapoint():
         return render_template('home.html')
     
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", debug=True)
