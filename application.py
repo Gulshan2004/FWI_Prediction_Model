@@ -16,7 +16,7 @@ standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/predictdata',methods=['GET','POST'])
 #using GET i get the default information of the particular app
